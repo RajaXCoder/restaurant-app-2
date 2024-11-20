@@ -2,7 +2,7 @@ import {AiOutlineShoppingCart} from 'react-icons/ai'
 
 import './style.css'
 
-const Navbar = () => (
+const Navbar = ({cartCount}) => (
   <nav className="nav-container">
     <ul>
       <li>
@@ -10,7 +10,10 @@ const Navbar = () => (
       </li>
       <li>
         <p>My Orders</p>
-        <AiOutlineShoppingCart size={22} />
+        <div className="cart-count-container">
+          <AiOutlineShoppingCart size={22} />
+          <span>{cartCount}</span>
+        </div>
       </li>
     </ul>
   </nav>

@@ -25,3 +25,21 @@
 .nav-container ul li p {
   margin-inline: 10px;
 }
+
+.cart-count-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.cart-count-container span {
+  background-color: orange;
+  color: #fff;
+  top: 0;
+  right: 0;
+  z-index: auto;
+  align-self: flex-start;
+  padding: 4px;
+  border-radius: 10px;
+}

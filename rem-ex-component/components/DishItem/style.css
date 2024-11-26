@@ -1,0 +1,79 @@
+.dish-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 10px;
+  border-top: 1px solid #858585;
+}
+
+.dish-main-container {
+  width: 60%;
+  display: flex;
+}
+
+.dish-item-details-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  /* line-height: 1.5; */
+}
+
+.dish-item-details-container > * {
+  margin: 0 0 10px 0;
+}
+
+.dish-item-details-container h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.price {
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.description {
+  color: #535353;
+}
+
+.count-container {
+  background-color: green;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.count-container button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: inherit;
+}
+
+.availability {
+  color: rgb(76, 76, 224);
+}
+
+.calories {
+  color: rgb(202, 71, 0);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dish-image {
+  width: 100px;
+  height: 100px;
+}
+
+.not-availability {
+  color: red;
+}
